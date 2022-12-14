@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/subito-easy.png" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Navette Aeroport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Location Voiture</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Hebergement
+              </a>
+              <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Hotel</a></li>
+                <li><a class="dropdown-item" href="#">Maison Hote</a></li>
+                <li><a class="dropdown-item" href="#">Villa</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tourisme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="me-5">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 36 36">
+                <g transform="rotate(180 18 18)">
+                  <path fill="#ED2939" d="M36 27a4 4 0 0 1-4 4h-8V5h8a4 4 0 0 1 4 4v18z" />
+                  <path fill="#002495" d="M4 5a4 4 0 0 0-4 4v18a4 4 0 0 0 4 4h8V5H4z" />
+                  <path fill="#EEE" d="M12 5h12v26H12z" />
+                </g>
+              </svg></span>
+            <span class="">XOF</span>
+            <button class="btn_connexion"><svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+                <g transform="rotate(180 10 10)">
+                  <path fill="currentColor" fill-rule="evenodd"
+                    d="M3 3a1 1 0 0 1 1 1v12a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1Zm7.707 3.293a1 1 0 0 1 0 1.414L9.414 9H17a1 1 0 1 1 0 2H9.414l1.293 1.293a1 1 0 0 1-1.414 1.414l-3-3a1 1 0 0 1 0-1.414l3-3a1 1 0 0 1 1.414 0Z"
+                    clip-rule="evenodd" />
+                </g>
+              </svg>Connexion</button>
+            <button class="btn_inscription">
+              <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <path fill="#1d2424"
+                  d="M20 22h-2v-2a3 3 0 0 0-3-3H9a3 3 0 0 0-3 3v2H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12a6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8a4 4 0 0 0 0 8z" />
+              </svg>
+              Inscription</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="banner">
+      <div id="carouselExampleControls" class="carousel slide position-relative" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img src="./assets/image_banner1.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item text-center">
+            <img src="./assets/image_banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item ">
+            <img src="./assets/image_banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <div class=" d-flex justify-content-center position-absolute filtre_banner ">
+          <div class="">
+            <div class="">
+              <h1 class="text-white container">Bonjour!</h1>
+              <p class="text-white container">Ou voulez-vous aller </p>
+            </div>
+            <div class="d-flex flex">
+              <div class="bg-danger text-white py-1 px-3 rounded-top text_filtre"><svg class="pe-1"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24">
+                  <path fill="white"
+                    d="M21.57 12.66c-.14-.4-.52-.66-.97-.66h-7.19c-.46 0-.83.26-.98.66L11 16.77v5.51c0 .38.32.72.7.72h.62c.38 0 .68-.38.68-.76V21h8v1.24c0 .38.31.76.69.76h.61c.38 0 .7-.34.7-.72v-5.51l-1.43-4.11m-8.16.34h7.19l1.03 3h-9.25l1.03-3M13 19c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m8 0c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1M6.66 14.53L7 17l-1.05 1.06l-1.76-3.18L1 13.11l1.06-1.08l2.5.37l3.87-3.87L1 4.62l1.42-1.41l9.19 2.12l3.89-3.89c.56-.585 1.56-.585 2.12 0c.59.59.59 1.56 0 2.12l-3.89 3.89l.82 3.55h-1.14c-.87 0-1.62.5-1.91 1.31l-.03.06l-.91-1.74l-3.9 3.9Z" />
+                </svg>Navette Aeroport</div>
+              <div class="bg-white  py-1 px-3 rounded-top"><svg class="pe-1" xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+                  <path fill="#1d2424"
+                    d="M32 0C14.3 0 0 14.3 0 32s14.3 32 32 32v384c-17.7 0-32 14.3-32 32s14.3 32 32 32h176v-64h96v64h176c17.7 0 32-14.3 32-32s-14.3-32-32-32V64c17.7 0 32-14.3 32-32S497.7 0 480 0H32zm80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16zM96 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32zm-3 152.2c3.3 12.8-7.8 23.8-21 23.8H184c-13.3 0-24.3-10.9-21-23.8c10.6-41.5 48.2-72.2 93-72.2s82.5 30.7 93 72.2z" />
+                </svg>Hotel</div>
+              <div class="bg-white border rounded-top border-left-2  py-1 px-3"><svg class="pe-1"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24">
+                  <path fill="#1d2424"
+                    d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM7.5 16c-.83 0-1.5-.67-1.5-1.5S6.67 13 7.5 13s1.5.67 1.5 1.5S8.33 16 7.5 16zm9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5s1.5.67 1.5 1.5s-.67 1.5-1.5 1.5zM5.81 10l1.04-3h10.29l1.04 3H5.81z" />
+                </svg>Car</div>
+            </div>
+            <div class="wrap">
+              <form action="" class="" method="post">
+                <div class="row container form_search py-2 ms-0 w-100">
+                  <div class=" col-lg-4  col-md-6 col-sm-12">
+                    <label for="dep_date">DATE&HEURE</label><br>
+                    <input type="date" name="dep_date" id="dep_date" class="bg-white w-100 mt-1">
+                  </div>
+                  <div class="form-group col-lg-4  col-md-6 col-sm-12">
+                    <label for="dep_date">
+                      Adresse Départ</label><br>
+                    <input type="date" name="dep_date" id="dep_date" class="bg-white w-100 mt-1">
+                  </div>
+                  <div class="form-group col-lg-4  col-md-6 col-sm-12">
+                    <label for="dep_date">DATE&HEURE</label><br>
+                    <input type="date" name="dep_date" id="dep_date" class="bg-white w-100 mt-1">
+                  </div>
+                </div>
+                <div class="row mx-0 container form_search pt-2 pb-5 ms-0 w-100">
+                  <div class="form-group col-lg-4  col-md-6 col-sm-12">
+                    <label for="dep_date">Nombre de personne</label>
+                    <input type="text" value="2" name="dep_date" id="dep_date" class="bg-white w-25 mt-1 text-center">
+                  </div>
+                  <div class="form-group col-lg-4  col-md-6 col-sm-12">
+                    <div class="form-check form-check-inline">
+                      <input class="mt-2" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="" for="inlineRadio1">Retour</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="" for="inlineRadio2">Aller Simple</label>
+                    </div>
+                  </div>
+                  <div class="form-group col-lg-4 col-md-6 col-sm-12d-flex flex-row align-item-center">
+                    <button type="submit" class=" btn-danger w-75 ">Trouver Un Tranfert</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div id="best_listing" class="mt-5">
+        <h3 class="ms-4">Bestseller Listing</h3>
+        <p class="ms-4">Hotel highly rated for thoughtful design</p>
+        <div class="row mx-0 ">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card_best_listing"><img class="card-img-top img-fluid img_best_listing"
+                src="./assets/image_best_listing.jpg" alt="Card image cap">
+              <div class="d-flex justify-content-start mt-3 ms-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+              <h6 class="fw-bold ms-3">Hotel Standford</h6>
+              <div class="d-flex ms-3 justify-content-between">
+                <p>4.8/5 <span>EXCELLENT</span></p>
+                <p class="me-3"><span>4</span>AVIS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card_best_listing"><img class="card-img-top img-fluid img_best_listing"
+                src="./assets/image_best_listing.jpg" alt="Card image cap">
+              <div class="d-flex justify-content-start mt-3 ms-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+              <h6 class="fw-bold ms-3">Hotel Standford</h6>
+              <div class="d-flex ms-3 justify-content-between">
+                <p>4.8/5 <span>EXCELLENT</span></p>
+                <p class="me-3"><span>4</span>AVIS</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card_best_listing"><img class="card-img-top img-fluid img_best_listing"
+                src="./assets/image_best_listing.jpg" alt="Card image cap">
+              <div class="d-flex justify-content-start mt-3 ms-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+              <h6 class="fw-bold ms-3">Hotel Standford</h6>
+              <div class="d-flex ms-3 justify-content-between">
+                <p>4.8/5 <span>EXCELLENT</span></p>
+                <p class="me-3"><span>4</span>AVIS</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card_best_listing"><img class="card-img-top img-fluid img_best_listing"
+                src="./assets/image_best_listing.jpg" alt="Card image cap">
+              <div class="d-flex justify-content-start mt-3 ms-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-danger m-1" width="12" height="14"
+                  fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+              <h6 class="fw-bold ms-3">Hotel Standford</h6>
+              <div class="d-flex ms-3 justify-content-between">
+                <p>4.8/5 <span>EXCELLENT</span></p>
+                <p class="me-3"><span>4</span>AVIS</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div id="top_destination" class="mt-5">
+        <h3 class="ms-4">Top Destinations</h3>
+        <p class="ms-4">Hotel highly rated for thoughtful design</p>
+        <div class="row mx-0 ">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card_top_destination"><img class="card-img-top img-fluid img_top_destination h-75 "
+                src="./assets/la-somone-djibril-ndiaye-guide.jpg" alt="Card image cap">
+              <h6 class="fw-bold ms-3 mt-3">La somone</h6>
+              <p class="text-end me-3 pb-3 text-danger">Je découvre</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card_top_destination"><img class="card-img-top img-fluid img_top_destination h-75 "
+                src="./assets/eyelit-studio-2ew_aw99x28-unsplash.jpg" alt="Card image cap">
+              <h6 class="fw-bold ms-3 mt-3">La somone</h6>
+              <p class="text-end me-3 pb-3 text-danger">Je découvre</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mx-0 ">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card_top_destination"><img class="card-img-top img-fluid img_top_destination h-75 "
+                src="./assets/img-12.jpg" alt="Card image cap">
+              <h6 class="fw-bold ms-3 mt-3">La somone</h6>
+              <p class="text-end me-3 pb-3 text-danger">Je découvre</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card_top_destination"><img class="card-img-top img-fluid img_top_destination h-75 "
+                src="./assets/image_banner2.jpg" alt="Card image cap">
+              <h6 class="fw-bold ms-3 mt-3">La somone</h6>
+              <p class="text-end me-3 pb-3 text-danger">Je découvre</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card_top_destination"><img class="card-img-top img-fluid img_top_destination h-75 "
+                src="./assets/image_banner3.jpg" alt="Card image cap">
+              <h6 class="fw-bold ms-3 mt-3">La somone</h6>
+              <p class="text-end me-3 pb-3 text-danger">Je découvre</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="best_listing" class="mt-5">
+        <h3 class="ms-4">Our best promotion tours</h3>
+        <p class="ms-4">Hotel highly rated for thoughtful design</p>
+        <div class="row mx-0 ">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="promotion d-flex justify-content-between">
+              <div class="test">
+                <img src="./assets/david-perghaud-KDBr4hTGqzk-unsplash.jpg" class="img-fluid" alt="" srcset="">
+              </div>
+              <div class="d-flex flex-column justify-content-end text-end px-2 py-3 mx-2">
+                <p>2 jan -5 jan 2023</p>
+                <p class="fw-bold text-wrap">American Parks Trail
+                  end Rapid City</p>
+                <div class="d-flex justify-content-end">
+                  <div class="card_redution_promotion text-center text-white fw-bolde"><span class="">50%</span></div>
+                </div>
+                <p class="pt-2"><span>150000 CFA</span><span class="text-danger"> 75000 CFA </span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="promotion d-flex justify-content-between">
+              <div class="test">
+                <img src="./assets/david-perghaud-KDBr4hTGqzk-unsplash.jpg" class="img-fluid" alt="" srcset="">
+              </div>
+              <div class="d-flex flex-column justify-content-end text-end px-2 py-3 mx-2">
+                <p>2 jan -5 jan 2023</p>
+                <p class="fw-bold text-wrap">American Parks Trail
+                  end Rapid City</p>
+                <div class="d-flex justify-content-end">
+                  <div class="card_redution_promotion text-center text-white fw-bolde"><span class="">50%</span></div>
+                </div>
+                <p class="pt-2"><span>150000 CFA</span><span class="text-danger"> 75000 CFA </span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="promotion d-flex justify-content-between">
+              <div class="test">
+                <img src="./assets/david-perghaud-KDBr4hTGqzk-unsplash.jpg" class="img-fluid" alt="" srcset="">
+              </div>
+              <div class="d-flex flex-column justify-content-end text-end px-2 py-3 mx-2">
+                <p>2 jan -5 jan 2023</p>
+                <p class="fw-bold text-wrap">American Parks Trail
+                  end Rapid City</p>
+                <div class="d-flex justify-content-end">
+                  <div class="card_redution_promotion text-center text-white fw-bolde"><span class="">50%</span></div>
+                </div>
+                <p class="pt-2"><span>150000 CFA</span><span class="text-danger"> 75000 CFA </span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="promotion d-flex justify-content-between">
+              <div class="test">
+                <img src="./assets/david-perghaud-KDBr4hTGqzk-unsplash.jpg" class="img-fluid" alt="" srcset="">
+              </div>
+              <div class="d-flex flex-column justify-content-end text-end px-2 py-3 mx-2">
+                <p>2 jan -5 jan 2023</p>
+                <p class="fw-bold text-wrap">American Parks Trail
+                  end Rapid City</p>
+                <div class="d-flex justify-content-end">
+                  <div class="card_redution_promotion text-center text-white fw-bolde"><span class="">50%</span></div>
+                </div>
+                <p class="pt-2"><span>150000 CFA</span><span class="text-danger"> 75000 CFA </span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="promotion d-flex justify-content-between">
+              <div class="test">
+                <img src="./assets/david-perghaud-KDBr4hTGqzk-unsplash.jpg" class="img-fluid" alt="" srcset="">
+              </div>
+              <div class="d-flex flex-column justify-content-end text-end px-2 py-3 mx-2">
+                <p>2 jan -5 jan 2023</p>
+                <p class="fw-bold text-wrap">American Parks Trail
+                  end Rapid City</p>
+                <div class="d-flex justify-content-end">
+                  <div class="card_redution_promotion text-center text-white fw-bolde"><span class="">50%</span></div>
+                </div>
+                <p class="pt-2"><span>150000 CFA</span><span class="text-danger"> 75000 CFA </span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="promotion d-flex justify-content-between">
+              <div class="test">
+                <img src="./assets/david-perghaud-KDBr4hTGqzk-unsplash.jpg" class="img-fluid" alt="" srcset="">
+              </div>
+              <div class="d-flex flex-column justify-content-end text-end px-2 py-3 mx-2">
+                <p>2 jan -5 jan 2023</p>
+                <p class="fw-bold text-wrap">American Parks Trail
+                  end Rapid City</p>
+                <div class="d-flex justify-content-end">
+                  <div class="card_redution_promotion text-center text-white fw-bolde"><span class="">50%</span></div>
+                </div>
+                <p class="pt-2"><span>150000 CFA</span><span class="text-danger"> 75000 CFA </span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="card_trending" class="mt-5">
+        <h3 class="ms-4">Car Trending</h3>
+        <p class="ms-4">Hotel highly rated for thoughtful design</p>
+        <div class="row mx-0 ">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card_car">
+              <img class="card-img-top img-fluid image_card_trending mt-2" src="./assets/berline.png"
+                alt="Card image cap">
+              <div class="d-flex justify-content-end pe-3">
+                <div class="me-1 pourcentage_reduction_card_trending text-center">
+                  <p class="pt-2 mt-1 text-white fw-bold">50%</p>
+                </div>
+              </div>
+              <p class="text-center">Vinfast Lux SA2.0 Plus</p>
+              <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex justify-content-center content_icontent_car_trending mx-5 text-center">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24">
+                      <g fill="none" stroke="#1d2424" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="m16.719 19.752l-.64-5.124A3 3 0 0 0 13.101 12h-2.204a3 3 0 0 0-2.976 2.628l-.641 5.124A2 2 0 0 0 9.266 22h5.468a2 2 0 0 0 1.985-2.248Z" />
+                        <circle cx="12" cy="5" r="3" />
+                        <circle cx="4" cy="9" r="2" />
+                        <circle cx="20" cy="9" r="2" />
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M4 14h-.306a2 2 0 0 0-1.973 1.671l-.333 2A2 2 0 0 0 3.361 20H7m13-6h.306a2 2 0 0 1 1.973 1.671l.333 2A2 2 0 0 1 20.639 20H17" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#1d2424" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M40 12v12H8m16-12v24M8 12v24" />
+                        <path
+                          d="M44 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM12 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm16 32a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-16 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm28 4a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#1d2424" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M40 12v12H8m16-12v24M8 12v24" />
+                        <path
+                          d="M44 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM12 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm16 32a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-16 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm28 4a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+                      <path fill="#1d2424"
+                        d="M149.6 41L42.88 254.4c23.8 24.3 53.54 58.8 78.42 97.4c24.5 38.1 44.1 79.7 47.1 119.2h270.3L423.3 41H149.6zM164 64h230l8 192H74l90-192zm86.8 17.99l-141 154.81L339.3 81.99h-88.5zM336 279h64v18h-64v-18z" />
+                    </svg></span>
+                </div>
+                <div class="d-flex justify-content-center content_icontent_car_trending mx-5 text-center">
+                  <span>2</span>
+                  <span>auto</span>
+                  <span>3</span>
+                  <span>4</span>
+                </div>
+              </div>
+              <p class="text-center my-1">from 50000 cfa <span class="text-danger">25000 cfa</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card_car">
+              <img class="card-img-top img-fluid image_card_trending mt-2" src="./assets/suv.png" alt="Card image cap">
+              <div class="d-flex justify-content-end pe-3">
+                <div class="me-1 pourcentage_reduction_card_trending text-center">
+                  <p class="pt-2 mt-1 text-white fw-bold">50%</p>
+                </div>
+              </div>
+              <p class="text-center">Vinfast Lux SA2.0 Plus</p>
+              <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex justify-content-center content_icontent_car_trending mx-5 text-center">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24">
+                      <g fill="none" stroke="#1d2424" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="m16.719 19.752l-.64-5.124A3 3 0 0 0 13.101 12h-2.204a3 3 0 0 0-2.976 2.628l-.641 5.124A2 2 0 0 0 9.266 22h5.468a2 2 0 0 0 1.985-2.248Z" />
+                        <circle cx="12" cy="5" r="3" />
+                        <circle cx="4" cy="9" r="2" />
+                        <circle cx="20" cy="9" r="2" />
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M4 14h-.306a2 2 0 0 0-1.973 1.671l-.333 2A2 2 0 0 0 3.361 20H7m13-6h.306a2 2 0 0 1 1.973 1.671l.333 2A2 2 0 0 1 20.639 20H17" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#1d2424" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M40 12v12H8m16-12v24M8 12v24" />
+                        <path
+                          d="M44 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM12 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm16 32a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-16 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm28 4a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#1d2424" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M40 12v12H8m16-12v24M8 12v24" />
+                        <path
+                          d="M44 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM12 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm16 32a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-16 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm28 4a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+                      <path fill="#1d2424"
+                        d="M149.6 41L42.88 254.4c23.8 24.3 53.54 58.8 78.42 97.4c24.5 38.1 44.1 79.7 47.1 119.2h270.3L423.3 41H149.6zM164 64h230l8 192H74l90-192zm86.8 17.99l-141 154.81L339.3 81.99h-88.5zM336 279h64v18h-64v-18z" />
+                    </svg></span>
+                </div>
+                <div class="d-flex justify-content-center content_icontent_car_trending mx-5 text-center">
+                  <span>2</span>
+                  <span>auto</span>
+                  <span>3</span>
+                  <span>4</span>
+                </div>
+              </div>
+              <p class="text-center my-1">from 50000 cfa <span class="text-danger">25000 cfa</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+            <div class="card_car">
+              <img class="card-img-top img-fluid image_card_trending mt-2" src="./assets/starex.png"
+                alt="Card image cap">
+              <div class="d-flex justify-content-end pe-3">
+                <div class="me-1 pourcentage_reduction_card_trending text-center">
+                  <p class="pt-2 mt-1 text-white fw-bold">50%</p>
+                </div>
+              </div>
+              <p class="text-center">Vinfast Lux SA2.0 Plus</p>
+              <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex justify-content-center content_icontent_car_trending mx-5 text-center">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24">
+                      <g fill="none" stroke="#1d2424" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="m16.719 19.752l-.64-5.124A3 3 0 0 0 13.101 12h-2.204a3 3 0 0 0-2.976 2.628l-.641 5.124A2 2 0 0 0 9.266 22h5.468a2 2 0 0 0 1.985-2.248Z" />
+                        <circle cx="12" cy="5" r="3" />
+                        <circle cx="4" cy="9" r="2" />
+                        <circle cx="20" cy="9" r="2" />
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M4 14h-.306a2 2 0 0 0-1.973 1.671l-.333 2A2 2 0 0 0 3.361 20H7m13-6h.306a2 2 0 0 1 1.973 1.671l.333 2A2 2 0 0 1 20.639 20H17" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#1d2424" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M40 12v12H8m16-12v24M8 12v24" />
+                        <path
+                          d="M44 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM12 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm16 32a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-16 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm28 4a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#1d2424" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M40 12v12H8m16-12v24M8 12v24" />
+                        <path
+                          d="M44 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM12 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm16 32a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-16 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm28 4a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+                      <path fill="#1d2424"
+                        d="M149.6 41L42.88 254.4c23.8 24.3 53.54 58.8 78.42 97.4c24.5 38.1 44.1 79.7 47.1 119.2h270.3L423.3 41H149.6zM164 64h230l8 192H74l90-192zm86.8 17.99l-141 154.81L339.3 81.99h-88.5zM336 279h64v18h-64v-18z" />
+                    </svg></span>
+                </div>
+                <div class="d-flex justify-content-center content_icontent_car_trending mx-5 text-center">
+                  <span>2</span>
+                  <span>auto</span>
+                  <span>3</span>
+                  <span>4</span>
+                </div>
+              </div>
+              <p class="text-center my-1">from 50000 cfa <span class="text-danger">25000 cfa</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card_car">
+              <img class="card-img-top img-fluid image_card_trending mt-2" src="./assets/duster1.png"
+                alt="Card image cap">
+              <div class="d-flex justify-content-end pe-3">
+                <div class="me-1 pourcentage_reduction_card_trending text-center">
+                  <p class="pt-2 mt-1 text-white fw-bold">50%</p>
+                </div>
+              </div>
+              <p class="text-center">Vinfast Lux SA2.0 Plus</p>
+              <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex justify-content-center content_icontent_car_trending mx-5 text-center">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24">
+                      <g fill="none" stroke="#1d2424" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="m16.719 19.752l-.64-5.124A3 3 0 0 0 13.101 12h-2.204a3 3 0 0 0-2.976 2.628l-.641 5.124A2 2 0 0 0 9.266 22h5.468a2 2 0 0 0 1.985-2.248Z" />
+                        <circle cx="12" cy="5" r="3" />
+                        <circle cx="4" cy="9" r="2" />
+                        <circle cx="20" cy="9" r="2" />
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M4 14h-.306a2 2 0 0 0-1.973 1.671l-.333 2A2 2 0 0 0 3.361 20H7m13-6h.306a2 2 0 0 1 1.973 1.671l.333 2A2 2 0 0 1 20.639 20H17" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#1d2424" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M40 12v12H8m16-12v24M8 12v24" />
+                        <path
+                          d="M44 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM12 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm16 32a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-16 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm28 4a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#1d2424" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M40 12v12H8m16-12v24M8 12v24" />
+                        <path
+                          d="M44 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0ZM12 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm16 32a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-16 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm28 4a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                      </g>
+                    </svg>
+                  </span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+                      <path fill="#1d2424"
+                        d="M149.6 41L42.88 254.4c23.8 24.3 53.54 58.8 78.42 97.4c24.5 38.1 44.1 79.7 47.1 119.2h270.3L423.3 41H149.6zM164 64h230l8 192H74l90-192zm86.8 17.99l-141 154.81L339.3 81.99h-88.5zM336 279h64v18h-64v-18z" />
+                    </svg></span>
+                </div>
+                <div class="d-flex justify-content-center content_icontent_car_trending mx-5 text-center">
+                  <span>2</span>
+                  <span>auto</span>
+                  <span>3</span>
+                  <span>4</span>
+                </div>
+              </div>
+              <p class="text-center my-1">from 50000 cfa <span class="text-danger">25000 cfa</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-end">
+          <div class="btn_voir_plus_card_trending text-center me-3 mt-4">
+            <a href="" class="text-reset text-decoration-none">
+              <p class="pt-1">Voir Plus<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                  <path fill="#1d2424"
+                    d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z" />
+                </svg></p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="travel_blog" class="mt-5">
+        <h3 class="ms-4">Read the latest from blog</h3>
+        <p class="ms-4">Contrary to popular belief</p>
+        <div class="row mx-0 ">
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+            <div class="card_travel_blog"><img class="card-img-top img-fluid img_travel_blog"
+                src="./assets/image_best_listing.jpg" alt="Card image cap">
+              <div class="mx-4">
+                <div class="d-flex justify-content-between mt-1 p-0 mb-0">
+                  <p>HOSTED TOUR</p>
+                  <p>11/12/2022</p>
+                </div>
+                <p class="text-wrap m-0 p-0">From the iconic to the unexpected, the city of San Francisco never ceases
+                  to...</p>
+                <div class="d-flex justify-content-start m-0">
+                  <div class="btn_voir_plus_card_travel_blog text-center me-3 mt-4">
+                    <a href="" class="text-reset text-decoration-none">
+                      <p class="">READED MORE</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+            <div class="card_travel_blog"><img class="card-img-top img-fluid img_travel_blog"
+                src="./assets/image_best_listing.jpg" alt="Card image cap">
+              <div class="mx-4">
+                <div class="d-flex justify-content-between mt-1 p-0 mb-0">
+                  <p>HOSTED TOUR</p>
+                  <p>11/12/2022</p>
+                </div>
+                <p class="text-wrap m-0 p-0">From the iconic to the unexpected, the city of San Francisco never ceases
+                  to...</p>
+                <div class="d-flex justify-content-start m-0">
+                  <div class="btn_voir_plus_card_travel_blog text-center me-3 mt-4">
+                    <a href="" class="text-reset text-decoration-none">
+                      <p class="">READED MORE</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+            <div class="card_travel_blog"><img class="card-img-top img-fluid img_travel_blog"
+                src="./assets/image_best_listing.jpg" alt="Card image cap">
+              <div class="mx-4">
+                <div class="d-flex justify-content-between mt-1 p-0 mb-0">
+                  <p>HOSTED TOUR</p>
+                  <p>11/12/2022</p>
+                </div>
+                <p class="text-wrap m-0 p-0">From the iconic to the unexpected, the city of San Francisco never ceases
+                  to...</p>
+                <div class="d-flex justify-content-start m-0">
+                  <div class="btn_voir_plus_card_travel_blog text-center me-3 mt-4">
+                    <a href="" class="text-reset text-decoration-none">
+                      <p class="">READED MORE</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+            <div class="card_travel_blog"><img class="card-img-top img-fluid img_travel_blog"
+                src="./assets/image_best_listing.jpg" alt="Card image cap">
+              <div class="mx-4">
+                <div class="d-flex justify-content-between mt-1 p-0 mb-0">
+                  <p>HOSTED TOUR</p>
+                  <p>11/12/2022</p>
+                </div>
+                <p class="text-wrap m-0 p-0">From the iconic to the unexpected, the city of San Francisco never ceases
+                  to...</p>
+                <div class="d-flex justify-content-start m-0">
+                  <div class="btn_voir_plus_card_travel_blog text-center me-3 mt-4">
+                    <a href="" class="text-reset text-decoration-none">
+                      <p class="">READED MORE</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="avis_vlient" class="mt-5">
+        <h3 class="ms-3 py-3">Our happy clients</h3>
+        <div class="row mx-0 ">
+          <div class="col-lg-3 col-md-6 col-sm-6 my-2">
+            <div class="card_avis_clients">
+              <div class="bg-white rounded-start">
+                <div class="content_avatar_vlient d-flex">
+                  <img src="./assets/avatar-2.jpg" class="rounded-circle mx-3 my-2 border border-4" alt="...">
+                  <div class="my-2">
+                    <h6 class="text-white">Eva Hicks</h6>
+                    <div>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white content_text_avis_avis_client p-2">
+                <p class="text-wrap mx-2">Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi
+                  Rutrum tellus lorem sem
+                  velit nisi non pharetra</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 my-2">
+            <div class="card_avis_clients">
+              <div class="bg-white rounded-start">
+                <div class="content_avatar_vlient d-flex">
+                  <img src="./assets/avatar.jpg" class="rounded-circle mx-3 my-2 border border-4" alt="...">
+                  <div class="my-2">
+                    <h6 class="text-white">Eva Hicks</h6>
+                    <div>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white content_text_avis_avis_client p-2">
+                <p class="text-wrap mx-2">Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi
+                  Rutrum tellus lorem sem
+                  velit nisi non pharetra</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 my-2">
+            <div class="card_avis_clients">
+              <div class="bg-white rounded-start">
+                <div class="content_avatar_vlient d-flex">
+                  <img src="./assets/avatar-3.jpg" class="rounded-circle mx-3 my-2 border border-4" alt="...">
+                  <div class="my-2">
+                    <h6 class="text-white">Eva Hicks</h6>
+                    <div>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white content_text_avis_avis_client p-2">
+                <p class="text-wrap mx-2">Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi
+                  Rutrum tellus lorem sem
+                  velit nisi non pharetra</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 my-2">
+            <div class="card_avis_clients">
+              <div class="bg-white rounded-start">
+                <div class="content_avatar_vlient d-flex">
+                  <img src="./assets/avatar-2.jpg" class="rounded-circle mx-3 my-2 border border-4" alt="...">
+                  <div class="my-2">
+                    <h6 class="text-white">Eva Hicks</h6>
+                    <div>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                          <path fill="whitesmoke"
+                            d="m12 18.275l-4.15 2.5q-.275.175-.575.15q-.3-.025-.525-.2q-.225-.175-.35-.437q-.125-.263-.05-.588l1.1-4.725L3.775 11.8q-.25-.225-.312-.513Q3.4 11 3.5 10.725q.1-.275.3-.45q.2-.175.55-.225l4.85-.425l1.875-4.45q.125-.3.388-.45q.262-.15.537-.15t.538.15q.262.15.387.45l1.875 4.45l4.85.425q.35.05.55.225q.2.175.3.45q.1.275.038.562q-.063.288-.313.513l-3.675 3.175l1.1 4.725q.075.325-.05.588q-.125.262-.35.437q-.225.175-.525.2q-.3.025-.575-.15Z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white content_text_avis_avis_client p-2">
+                <p class="text-wrap mx-2">Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi
+                  Rutrum tellus lorem sem
+                  velit nisi non pharetra</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="footer">
+      <footer>
+        <div class="row mx-0 footer text-white pt-md-5">
+          <div class="col-lg-4 col-md-4 col-sm-12 p-3">
+            <h5 class="fw-bold">A PROPOS</h5>
+            <p>Subito International est la solution de mobilité qui vous débarasse du stress dans vos déplacements.
+              Notre mission est de redonner la serénité aux voyageurs. Nos principaux avantages concurrentiels :</p>
+            <ul>
+              <li>La ponctualité</li>
+              <li>Le professionnalisme de nos chauffeurs</li>
+              <li>Le confort de nos véhicules.</li>
+              <li>La compétitivité de nos prix.</li>
+            </ul>
+          </div>
+          <div class="ccol-lg-4 col-md-4 col-sm-12 p-3">
+            <h5 class="fw-bold">Besoin d'aide?</h5>
+            <p>Contactez-nous par téléphone ou par mail</p>
+            <p class="p-0 "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <path fill="#f35074"
+                  d="M12.8 11V5h2v2.6l5-5L21.2 4l-5 5h2.6v2Zm7.15 10q-3.225 0-6.287-1.425q-3.063-1.425-5.425-3.8q-2.363-2.375-3.8-5.438Q3 7.275 3 4.05v-.525Q3 3.25 3.05 3H8.9l.925 5.025l-2.85 2.875q1.05 1.8 2.638 3.375Q11.2 15.85 13.1 17l2.9-2.9l5 1v5.85q-.25.025-.525.038Q20.2 21 19.95 21Z" />
+              </svg><span>+221 78 136 36 35 - 33 825 23 26</span></p>
+            <p class="p-0 m-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <path fill="#f35074"
+                  d="M12.8 11V5h2v2.6l5-5L21.2 4l-5 5h2.6v2Zm7.15 10q-3.225 0-6.287-1.425q-3.063-1.425-5.425-3.8q-2.363-2.375-3.8-5.438Q3 7.275 3 4.05v-.525Q3 3.25 3.05 3H8.9l.925 5.025l-2.85 2.875q1.05 1.8 2.638 3.375Q11.2 15.85 13.1 17l2.9-2.9l5 1v5.85q-.25.025-.525.038Q20.2 21 19.95 21Z" />
+              </svg><span>+221 78 136 36 35 - 33 825 23 26</span></p>
+            <h5 class="mt-4 fw-bold">Suivez-nous</h5>
+            <ul class="list-group list-group-horizontal list-unstyled">
+              <li class="mx-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                    <g fill="white">
+                      <path
+                        d="M16-.034C7.159-.034-.035 7.158-.035 16S7.159 32.034 16 32.034S32.035 24.842 32.035 16S24.841-.034 16-.034zm0 31C7.748 30.966 1.035 24.252 1.035 16S7.748 1.034 16 1.034S30.965 7.748 30.965 16S24.252 30.966 16 30.966z" />
+                      <path
+                        d="M19.5 7h-2.668C13.434 6.966 13 9.069 13 11.345V13h-1.5a.445.445 0 0 0-.5.5v3a.445.445 0 0 0 .5.5H13v7.5a.449.449 0 0 0 .503.5h3.055c.295.034.534-.205.44-.5L17 17h2.5a.445.445 0 0 0 .5-.5v-3a.445.445 0 0 0-.5-.5h-2.503L17 11.5c.097-.639.097-.535.69-.5h1.789c.139-.031.287-.014.391-.115c.104-.101.164-.239.129-.385v-3A.444.444 0 0 0 19.5 7zm-.535 2.944l-1.254-.048c-1.553 0-1.683.843-1.683 1.706l-.004 1.896a.534.534 0 0 0 .534.535H19v1.932h-2.44a.535.535 0 0 0-.535.534L16.024 24H14v-7.5c0-.295-.201-.534-.497-.534H12v-1.932h1.503a.534.534 0 0 0 .378-.156c.1-.101.118-.237.118-.379v-2.155c0-2.242.453-3.31 2.832-3.31h2.133v1.91z" />
+                    </g>
+                  </svg></a></li>
+              <li class="mx-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                    <g fill="white">
+                      <path
+                        d="M19.515 11.952c-.678 0-1.18.171-1.573.387c-.063-.224-.27-.388-.514-.339h-2.984c-.295-.049-.534.19-.443.5v11c-.091.28.148.52.443.5h2.984c.295.02.534-.22.534-.515l-.001-6.648c-.001-.003-.012-.321.189-.54c.161-.174.438-.263.821-.263c.638 0 .922.261 1.028.845v6.606c-.105.295.134.535.429.515h3.145c.295.02.534-.22.428-.515v-6.828c.105-3.472-2.368-4.705-4.486-4.705zM23.038 23h-2.076v-6.121c0-1.181-.763-1.913-1.99-1.913c-.694 0-1.234.204-1.606.606c-.517.56-.477 1.27-.366 1.428v6h-2.022v-9.98h1.916v.336a.532.532 0 0 0 .86.423l.14-.108c.405-.319.824-.65 1.622-.65c.826 0 3.523.263 3.523 3.637V23zM11 6.966c-1.122 0-2.034.912-2.034 2.034s.912 2.034 2.034 2.034s2.034-.912 2.034-2.034S12.122 6.966 11 6.966zm0 3c-.532 0-.966-.434-.966-.966s.434-.966.966-.966s.966.434.966.966s-.434.966-.966.966zm1.428 1.985H9.46c-.295 0-.534.239-.46.549v11c-.074.28.165.52.46.5h2.968c.295.02.534-.22.534-.515v-11a.534.534 0 0 0-.534-.534zM12 23H9.994v-9.98H12V23z" />
+                      <path
+                        d="M16-.034C7.158-.034-.034 7.158-.034 16S7.158 32.034 16 32.034S32.034 24.842 32.034 16S24.842-.034 16-.034zm0 31C7.748 30.966 1.034 24.252 1.034 16S7.748 1.034 16 1.034S30.966 7.748 30.966 16S24.252 30.966 16 30.966z" />
+                    </g>
+                  </svg></a></li>
+              <li class="mx-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                    <path fill="white"
+                      d="M128 84a44 44 0 1 0 44 44a44 44 0 0 0-44-44Zm0 80a36 36 0 1 1 36-36a36 36 0 0 1-36 36Zm44-132H84a52 52 0 0 0-52 52v88a52 52 0 0 0 52 52h88a52 52 0 0 0 52-52V84a52 52 0 0 0-52-52Zm44 140a44 44 0 0 1-44 44H84a44 44 0 0 1-44-44V84a44 44 0 0 1 44-44h88a44 44 0 0 1 44 44Zm-28-96a8 8 0 1 1-8-8a8 8 0 0 1 8 8Z" />
+                  </svg></a></li>
+              <li class="mx-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="30.5"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 384 488">
+                    <path fill="white"
+                      d="M325 339h-25v-15q0-12 12-12h1q12 0 12 12v15zm-95-32q-12 0-12 10v71q0 10 12 10t12-10v-71q0-10-12-10zm154-40v136q0 25-18.5 42T321 462H63q-26 0-44.5-17T0 403V267q0-24 18.5-41.5T63 208h258q26 0 44.5 17.5T384 267zM80 418V275h32v-21l-85-1v21h26v144h27zm96-122h-27v95q-2 5-7 6.5t-8-5.5v-19l-1-77h-26v100q2 17 7 20q9 6 22.5.5T155 402v16h21V296zm85 88v-64q0-19-12-26t-30 7v-47h-27v163h22l2-11q21 18 33.5 10t11.5-32zm84-9h-20v14q0 11-11 11h-4q-11 0-11-11v-29h46v-17q0-26-1-33q-3-16-21.5-20t-30.5 5q-8 7-11 15q-3 10-3 27v38q0 37 28 43q24 5 35-16q7-11 4-27zM242 169q2 5 7 8q4 3 11 3q6 0 10-3t7-9v10h30V51h-24v99q0 10-10 10q-9 0-9-10V51h-25v86q0 18 1 22q0 4 2 10zm-90-71q0-18 3-29q3-9 11-16q8-6 20-6q11 0 18 4q7 3 11 10q4 5 6 13q1 5 1 21v32q0 20-1 26q-1 7-6 15q-3 5-11 11q-8 3-16 3q-10 0-18-3q-7-3-11-9q-4-8-5-14q-2-10-2-25V98zm23 50q0 5 3.5 9t8.5 4q12 0 12-13V81q0-13-12-13t-12 13v67zm-82 34h28V85l33-83h-30l-18 62L88 2H58l35 83v97z" />
+                  </svg></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 p-3">
+            <div class="d-flex">
+              <img src="./assets/3_logo.svg" style="height: 100px; width: 80px;" alt="logo subito">
+              <div>
+                <h5 class="fw-bold">MYSUBITO DANS VOTRE POCHE</h5>
+                <p>Téléchargez notre application gratuite</p>
+              </div>
+            </div>
+            <div class=" ms-2 d-flex ustify-content-between">
+              <div class="d-flex px-2">
+                <a href="" class="mx-2"><img src="./assets/playstore.svg" alt="logo_playstore" srcset=""></a>
+                <a href="" class="mx-2"><img src="./assets/appstore.svg" alt="appstore" srcset=""></a>
+              </div>
+            </div>
+            <div class="my-3 ms-4">
+              <h5 class="fw-bold">Newsletter</h5>
+              <div class="input-group mb-3 mt-4">
+                <input type="text" class="form-control input_newsletter" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn_newsletter" type="button" id="button-addon2">Button</button>
+              </div>  
+            </div>          
+          </div>
+        </div>
+      </footer>
+    </section>
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>
